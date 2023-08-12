@@ -1,0 +1,62 @@
+$bg-black: #131212;
+$bg-red: #FF1F1F;
+
+$text-white: #fff;
+$text-gray:rgba(60, 60, 67, 0.60);
+$text-red:#FF1F1F;
+
+$border-gray:rgba(255, 255, 255, 0.80);
+$border-red: #FF1F1F;
+
+body{
+  background-color: $bg-black;
+}
+
+.wrapper {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  overflow: hidden;
+
+  color: $text-white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+[class*="__container"] {
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 229px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+}
+
+@media(max-width: 1440px) {
+  [class*="__container"] {
+    padding: 0 172px;
+  }
+}
+
+@media (max-width: 990px) {
+  [class*="__container"] {
+    padding: 0 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  [class*="__container"] {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  [class*="__container"] {
+    padding: 0 16px;
+  }
+}

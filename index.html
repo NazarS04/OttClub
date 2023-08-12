@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OTT Club</title>
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <div class="header__container">
+      <nav class="header__nav">
+        <a class="header__logo" href="index.html"><img src="img/logo.png" alt="Логотип"></a>
+        <div class="header__social-media">
+          <a class="header__fb" href="##">
+            <svg class="header__svg-media">
+              <use xlink:href="img/sprite.svg#fb"></use>
+            </svg>
+          </a>
+          <a class="header__tg" href="##">
+            <svg class="header__svg-media">
+              <use xlink:href="img/sprite.svg#tg"></use>
+            </svg>
+          </a>
+        </div>
+        <a class="header__registration" href="##">Регистрация</a>
+        <a class="header__entrance" href="##">Войти</a>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="more-than">
+      <div class="more-than__container">
+        <div class="more-than__info">
+          <h1 class="more-than__title">Более 270 телеканалов в прямом эфире</h1>
+          <div class="more-than__img-phone">
+            <picture>
+              <source srcset="img/more-than/small-devices.png" media="(max-width:576px)">
+              <img src="" alt="Устройства">
+            </picture>
+          </div>
+          <p class="more-than__text">Национальные, познавательные, детские, кино, спортивные, новостные и многие другие
+            каналы</p>
+          <button class="more-than__button button">Протестировать 7 дней бесплатно</button>
+        </div>
+        <div class="more-than__img_absolute">
+          <picture>
+            <source srcset="img/more-than/devices768.png" media="(max-width:768px)">
+            <source srcset="img/more-than/devices990.png" media="(max-width:990px)">
+            <source srcset="img/more-than/devices1440.png" media="(max-width:1440px)">
+            <img src="img/more-than/devices1920.png" alt="Устройства">
+          </picture>
+        </div>
+        <div class="more-than__you-get you-get">
+          <div class="you-get__item">
+            <svg class="you-get__svg">
+              <use xlink:href="img/sprite.svg#gift"></use>
+            </svg>
+            <h4 class="you-get__title">Бесплатный тест</h4>
+            <p class="you-get__text text">7 дней бесплатного тестового просмотра</p>
+          </div>
+          <div class="you-get__item">
+            <svg class="you-get__svg">
+              <use xlink:href="img/sprite.svg#devices"></use>
+            </svg>
+            <h4 class="you-get__title">5 устройств = 1 подписка</h4>
+            <p class="you-get__text text">Подключайте 5 устройств в одной подписке</p>
+          </div>
+          <div class="you-get__item">
+            <svg class="you-get__svg">
+              <use xlink:href="img/sprite.svg#tv"></use>
+            </svg>
+            <h4 class="you-get__title">Архив трансляций</h4>
+            <p class="you-get__text text">Смотрите 7 дней телеэфира в записи</p>
+          </div>
+          <div class="you-get__item">
+            <svg class="you-get__svg">
+              <use xlink:href="img/sprite.svg#earth"></use>
+            </svg>
+            <h4 class="you-get__title">Без привязки к месту</h4>
+            <p class="you-get__text text">Смотрите любимые фильмы и передачи в любой точке мира</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="channels">
+      <div class="channels__container">
+        <form class="channels__form form">
+          <div class="form__info">
+            <div class="form__important-info">
+              <div class="form__price"><span>1€</span><span>/ месяц</span></div>
+              <p class="form__text">Покупая подписку более, чем на 6 месяцев</p>
+            </div>
+            <ul class="form__list">
+              <li>Более 250 каналов</li>
+              <li>127 FullHD каналов</li>
+              <li>Режим Ultra TV Sport</li>
+              <li>Архив каналов</li>
+              <li>5 устройств</li>
+            </ul>
+          </div>
+          <div class="form__field">
+            <input class="form__email" type="email" placeholder="Email">
+            <button class="form__button">Подключить тариф</button>
+          </div>
+        </form>
+      </div>
+      <div class="channels__container">
+        <h2 class="channels__title second-title">ТВ - каналы</h2>
+        <p class="channels__text text">Национальные, познавательные, детские, кино, спортивные, новостные и многие
+          другие телеканалы</p>
+      </div>
+      <div class="channels__container channels__categories">
+        <button class="channels__category channels__category_active">Популярные</button>
+        <button class="channels__category">Национальные</button>
+        <button class="channels__category">Познавательные</button>
+        <button class="channels__category">Кино</button>
+        <button class="channels__category">Спорт</button>
+        <button class="channels__category">Детские</button>
+        <button class="channels__category">Музыкальные</button>
+        <button class="channels__category">Новостные</button>
+      </div>
+      <div class="channels__container">
+        <div class="channels__channels">
+          <a class="channels__channel channels__channel_red" href="##"><img src="img/channels/channels/1+1.png"
+                                                                            alt="1+1"></a>
+          <a class="channels__channel channels__channel_blue" href="##"><img src="img/channels/channels/zoom%20hd.png"
+                                                                             alt="zoom hd"></a>
+          <a class="channels__channel channels__channel_green" href="##"><img src="img/channels/channels/uk1.png"
+                                                                              alt="Ukraine 1"></a>
+          <a class="channels__channel channels__channel_violet" href="##"><img src="img/channels/channels/film%20hd.png"
+                                                                               alt="film hd"></a>
+          <a class="channels__channel channels__channel_yellow" href="##"><img src="img/channels/channels/tet.png"
+                                                                               alt="tet"></a>
+          <a class="channels__channel channels__channel_blue" href="##"><img src="img/channels/channels/inter.png"
+                                                                             alt="Inter"></a>
+          <a class="channels__channel channels__channel_green" href="##"><img
+            src="img/channels/channels/new%20channel.png" alt="новый канал"></a>
+          <a class="channels__channel channels__channel_violet" href="##"><img src="img/channels/channels/ictv.png"
+                                                                               alt="ictv"></a>
+          <a class="channels__channel channels__channel_green" href="##"><img src="img/channels/channels/m1.png"
+                                                                              alt="m1"></a>
+          <a class="channels__channel channels__channel_violet" href="##"><img src="img/channels/channels/2+2.png"
+                                                                               alt="2+2"></a>
+          <a class="channels__channel channels__channel_red" href="##"><img src="img/channels/channels/1+1.png"
+                                                                            alt="1+1"></a>
+          <a class="channels__channel channels__channel_blue" href="##"><img src="img/channels/channels/zoom%20hd.png"
+                                                                             alt="zoom hd"></a>
+        </div>
+        <button class="channels__more-channels">Показать все</button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"></footer>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

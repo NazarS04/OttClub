@@ -1,0 +1,88 @@
+.button {
+  display: block;
+
+  max-width: 530px;
+  width: 100%;
+  padding: 24px;
+
+  align-items: center;
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 140%; /* 36.4px */
+  border-radius: 5px;
+  background: $bg-red;
+  color: inherit;
+}
+
+.text {
+  font-size: 1.25rem;
+  line-height: 150%; /* 30px */
+}
+
+.second-title {
+  font-size: 3.25rem;
+  font-weight: 500;
+  line-height: 140%; /* 72.8px */
+}
+
+@media (max-width: 1440px) {
+  .button {
+    max-width: 411px;
+    padding: 18px;
+
+    font-size: 1.25rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  .second-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .button {
+    max-width: 368px;
+    padding: 16px;
+
+    font-size: 1.125rem;
+  }
+
+  .second-title {
+    font-size: 2.25rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .button {
+    max-width: 340px;
+
+    font-size: 1.0625rem;
+  }
+
+  .second-title {
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .second-title {
+    text-align: center;
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .button {
+    padding: 14px;
+
+    font-size: 0.9375rem;
+  }
+
+  .second-title {
+    font-size: 1.5rem;
+  }
+}
