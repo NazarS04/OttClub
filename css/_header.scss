@@ -56,6 +56,7 @@
   font-weight: 600;
   line-height: 140%; /* 28px */
   text-decoration: none;
+  transition: opacity 0.4s;
 }
 
 .header__entrance{
@@ -68,6 +69,18 @@
   font-weight: 500;
   line-height: 140%; /* 28px */
   text-decoration: none;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+@media (min-width: 992px) {
+  .header__registration:hover{
+    opacity: 1;
+  }
+
+  .header__entrance:hover{
+    background-color: $bg-white;
+    color:$text-black;
+  }
 }
 
 @media(max-width: 1440px){

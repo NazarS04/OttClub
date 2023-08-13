@@ -520,6 +520,13 @@
   background-color: $bg-red;
   color: $text-white;
   cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+@media (min-width: 992px) {
+  .form__button:hover{
+    background-color: #c51b1b;
+  }
 }
 
 .channels__title {
@@ -603,7 +610,7 @@
   margin-bottom: 23px;
 
   overflow: hidden;
-  transition: max-height 0.4s;
+  transition: max-height 0.5s;
 }
 
 .channels__channel {
@@ -669,7 +676,7 @@
 
   background-image: url("../img/channels/drop-down-arrow.svg");
   background-repeat: no-repeat;
-  transition: transform 0.4s;
+  transition: transform 0.5s;
 }
 
 .channels__more-channels_active:after {

@@ -1,13 +1,15 @@
 $bg-black: #131212;
 $bg-red: #FF1F1F;
+$bg-white: #fff;
 
+$text-black: #131212;
 $text-white: #fff;
 $text-gray: rgba(60, 60, 67, 0.60);
 $text-red: #FF1F1F;
 
 $border-gray: rgba(255, 255, 255, 0.80);
 $border-red: #FF1F1F;
-$border-white: rgba(255,255,255,0.1);
+$border-white: rgba(255, 255, 255, 0.1);
 
 body {
   background-color: $bg-black;
@@ -25,6 +27,11 @@ body {
   color: $text-white;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+
+  background-image: url("../img/footer/bg-pc.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 [class*="__container"] {
@@ -45,18 +52,39 @@ a {
 }
 
 @media (max-width: 990px) {
+  .wrapper {
+    background-size: 990px;
+  }
+
   [class*="__container"] {
     padding: 0 48px;
   }
 }
 
 @media (max-width: 768px) {
+  .wrapper {
+    background-position: right -100px bottom;
+  }
+
   [class*="__container"] {
     padding: 0 40px;
   }
 }
 
+@media (max-width: 500px) {
+  .wrapper {
+    background-image: url("../img/footer/bg-phone.png");
+    background-position: center bottom;
+    background-size: 100%;
+  }
+}
+
 @media (max-width: 375px) {
+  .wrapper {
+    background-size: 375px;
+    background-position: bottom right -20px;
+  }
+
   [class*="__container"] {
     padding: 0 16px;
   }
