@@ -2,13 +2,14 @@ $bg-black: #131212;
 $bg-red: #FF1F1F;
 
 $text-white: #fff;
-$text-gray:rgba(60, 60, 67, 0.60);
-$text-red:#FF1F1F;
+$text-gray: rgba(60, 60, 67, 0.60);
+$text-red: #FF1F1F;
 
-$border-gray:rgba(255, 255, 255, 0.80);
+$border-gray: rgba(255, 255, 255, 0.80);
 $border-red: #FF1F1F;
+$border-white: rgba(255,255,255,0.1);
 
-body{
+body {
   background-color: $bg-black;
 }
 
