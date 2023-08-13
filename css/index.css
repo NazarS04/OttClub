@@ -762,11 +762,12 @@ a {
   transition: background-color 0.4s, border-color 0.4s;
 }
 
-.channels__category:hover {
-  background-color: #FF1F1F;
-  border-color: #FF1F1F;
+@media (min-width: 992px) {
+  .channels__category:hover {
+    background-color: #FF1F1F;
+    border-color: #FF1F1F;
+  }
 }
-
 .channels__category_active {
   background-color: #FF1F1F;
   border-color: #FF1F1F;
